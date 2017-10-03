@@ -1,0 +1,96 @@
+.col3{
+	width: 33.33%;
+	float: left;
+}
+.col3 a{
+	transition: .3s;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.col3 a:hover{
+	transform: scale(1.1,1.1);
+}
+ .col3 a:hover img{
+ 	filter: contrast(80%);;
+ }
+
+ .banner{
+ 	width: 100%;
+ 	height: 250px;
+	background-image: url(../img/img11.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+ }
+ .banner h3{
+ 	font-size: 3rem;
+ 	margin:0;
+ 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+ }
+ #agrupacion{
+ 	margin-top: 40px;
+ }
+ .headings{
+ 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+ }
+ #albuns{
+ 	margin-top: 40px;
+ }
+#galeria{
+	margin-top: 40px;
+}
+#redes{
+	margin-top: 40px;
+}
+.pie{
+	text-align: center;
+	background-color: #A4A4A4;
+	color: white;
+	height: 200px;
+	font-size: 2.5rem;
+}
+.breadcrumb{
+	background-color: #A4A4A4;
+	margin-left: 170px;
+}
+.breadcrumb a{
+	color: white;
+}
+.divider{
+	max-width: 200px;
+	border-bottom: : 2px;
+	border: 2px solid white;
+	margin: 0 auto;
+	position: relative;
+}
+.list-unstyled{
+	list-style: none;
+	text-decoration-style: dashed;
+}
+.list-unstyled a{
+	color: white;
+	text-align: center;
+}
+.scrollup{
+	width: 40px;
+	height:40px;
+    background-image: url(../img/icon_top.png);
+    position: fixed;
+    bottom: 50px;
+    right:40px;
+    border-radius: 50%;
+    opacity:.7;
+    z-index:50;
+}
+.banner-2{
+	background-image: url(../img/banner2.jpg);
+	background-position: center content;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+}
+.ultima{
+	background-color: #A4A4A4;
+}
